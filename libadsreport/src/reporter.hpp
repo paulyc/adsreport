@@ -29,7 +29,6 @@ template <typename TProtocol>
 class ReporterConnection
 {
 public:
-    Reporter() {}
 
 };
 

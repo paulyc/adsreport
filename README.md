@@ -1,4 +1,4 @@
-adsreport - generic reporter for ADS-B data
+# adsreport - generic reporter for ADS-B data
 
 Intended to replace a wide variety of ADS-B reporting applications
 for a wide variety of receivers and data aggregators, which all have
@@ -10,5 +10,5 @@ binaries and all you have is AMD64/Linux. Too bad, so sad.
 
 This project aims to remedy these types of silly problems considering
 it all started off in the same data format so it is rather mysterious to me
-why everyone didn't just leave it in the same format, something something,
-vendor lockin, something something.
+why everyone didn't just leave it in the same format on the wire!
+something something, vendor lockin, something something.
