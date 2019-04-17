@@ -17,7 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
-#ifndef _io_github_paulyc_adsreport_watcher_hpp_
-#define _io_github_paulyc_adsreport_watcher_hpp_
+#ifndef _io_github_paulyc_adsreport_consumer_hpp_
+#define _io_github_paulyc_adsreport_consumer_hpp_
 
-#endif /* _io_github_paulyc_adsreport_watcher_hpp_ */
+#endif /* _io_github_paulyc_adsreport_consumer_hpp_ */

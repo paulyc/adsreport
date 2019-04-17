@@ -17,24 +17,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
-#ifndef _io_github_paulyc_adsreport_reporter_hpp_
-#define _io_github_paulyc_adsreport_reporter_hpp_
+#ifndef _io_github_paulyc_adsreport_producer_hpp_
+#define _io_github_paulyc_adsreport_producer_hpp_
 
 namespace io {
 namespace github {
 namespace paulyc {
 namespace adsreport {
 
-template <typename TProtocol>
-class ReporterConnection
-{
-public:
-
-};
-
 }
 }
 }
 }
 
-#endif /* _io_github_paulyc_adsreport_reporter_hpp_ */
+#endif /* _io_github_paulyc_adsreport_producer_hpp_ */

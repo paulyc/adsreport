@@ -21,12 +21,14 @@ add_library(adsreport
 	SHARED
 	libadsreport.hpp
 	libmain.cpp
-	atc.cpp
-	atc.hpp
+	context.cpp
+	context.hpp
 	producer.cpp
 	producer.hpp
 	consumer.cpp
 	consumer.hpp
+	service.cpp
+	service.hpp
 )
 
 target_link_libraries(adsreport ${Boost_LIBRARIES})

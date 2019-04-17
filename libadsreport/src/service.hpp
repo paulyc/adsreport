@@ -17,9 +17,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
-#ifndef _io_github_paulyc_adsreport_net_hpp_
-#define _io_github_paulyc_adsreport_net_hpp_
+#ifndef _io_github_paulyc_adsreport_service_hpp_
+#define _io_github_paulyc_adsreport_service_hpp_
 
 #include <boost/asio.hpp>
+#include <boost/asio/yield.hpp>
 
-#endif /* _io_github_paulyc_adsreport_net_hpp_ */
+class DnsProvider
+{
+public:
+    DnsProvider();
+private:
+    boost::asio::ip::tcp::resolver _resolver;
+};
+
+#endif /* _io_github_paulyc_adsreport_service_hpp_ */
