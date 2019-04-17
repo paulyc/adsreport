@@ -17,5 +17,5 @@
 
 include_directories(${adsreport_SOURCE_DIR}/libadsreport/include)
 link_directories(${adsreport_SOURCE_DIR}/libadsreport/src)
-add_executable(adsreporter main.cc)
+add_executable(adsreporter main.cpp)
 target_link_libraries(adsreporter adsreport adsreport-fa)

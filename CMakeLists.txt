@@ -22,8 +22,8 @@ project(adsreport)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c11")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
-find_library(Boost 1.64)
-include_directories(${Boost_INCLUDES})
+find_package(Boost 1.55.0 REQUIRED SYSTEM)
+include_directories(SYSTEM ${Boost_INCLUDE_DIR})
 
 add_subdirectory(libadsreport)
 add_subdirectory(fa)

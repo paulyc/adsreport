@@ -16,14 +16,17 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 include_directories(${adsreport_SOURCE_DIR}/libadsreport/include)
+
 add_library(adsreport
 	SHARED
 	libadsreport.hpp
-	libmain.cc
-	net.cc
-	net.hpp
-	reporter.cc
-	reporter.hpp
-	watcher.cc
-	watcher.hpp
+	libmain.cpp
+	atc.cpp
+	atc.hpp
+	producer.cpp
+	producer.hpp
+	consumer.cpp
+	consumer.hpp
 )
+
+target_link_libraries(adsreport ${Boost_LIBRARIES})

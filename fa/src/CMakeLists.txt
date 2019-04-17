@@ -19,6 +19,6 @@ include_directories(${adsreport_SOURCE_DIR}/libadsreport/include)
 include_directories(${adsreport_SOURCE_DIR}/fa/include)
 add_library(adsreport-fa
 	SHARED
-	libmain.cc
+	libmain.cpp
 	fa.hpp
 )
